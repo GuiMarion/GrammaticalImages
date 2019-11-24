@@ -5,6 +5,10 @@ import itertools
 import os
 
 def genImages(words, orientation="L", name="test", alphabet_words=None):
+
+	if not os.path.exists("out/"):
+	    os.makedirs("out/")
+
 	if not os.path.exists("out/"+name):
 	    os.makedirs("out/"+name)
 	if alphabet_words is None:
