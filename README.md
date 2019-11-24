@@ -1,0 +1,2 @@
+# GrammaticalImages
+This repository hosts the code for a project conducted at Laboratoire des Systèmes Perceptifs (ENS, Paris) by Sophie Bodenes with the help of Guilhem Marion. The goal is to generalize classic generative grammar to 2D images. The code allows to generate all possible black-and-white images from an arbitraty grammar defined as a set of rules and a image size. The current code works with square and rectangle images, only with a binary alphabet (1 is black, 0 is white).
