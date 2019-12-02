@@ -16,6 +16,10 @@ def genImages(words, orientation="L", name="test", alphabet_words=None):
 	else:
 		alphabets = list(itertools.combinations(alphabet_words, 2))
 
+	print(alphabet_words)
+	print(alphabets)
+
+
 	images = []
 	k = 0
 	for word in words:
